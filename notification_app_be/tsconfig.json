@@ -7,11 +7,10 @@
     "allowSyntheticDefaultImports": true,
     "strict": false,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "skipLibCheck": true,
-    "types": ["node"],
-    "paths": {}
+    "types": ["node"]
   },
-  "include": ["src/**/*", "../logging_middleware/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
