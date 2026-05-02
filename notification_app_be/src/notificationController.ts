@@ -4,7 +4,7 @@
 
 import { Request, Response } from "express";
 import { fetchAllNotifications, getPriorityNotifications } from "./notificationService";
-import { Log } from "../../logging_middleware/logger";
+import { Log } from "./logger";
 
 // ─────────────────────────────────────────────
 // getAllNotifications

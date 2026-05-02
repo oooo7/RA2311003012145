@@ -6,7 +6,7 @@
 // 4. Returning top N notifications
 
 import config from "./config";
-import { Log } from "../../logging_middleware/logger";
+import { Log } from "./logger";
 
 // Token stored in memory - reused until it expires
 let authToken: string | null = null;

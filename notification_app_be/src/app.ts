@@ -6,7 +6,7 @@ import express from "express";
 import cors from "cors";
 import config from "./config";
 import notificationRoutes from "./notificationRoutes";
-import { Log } from "../../logging_middleware/logger";
+import { Log } from "./logger";
 
 const app = express();
 
