@@ -1,3 +1,4 @@
+"use client";
 import config from "./loggerConfig";
 
 let authToken: string | null = null;
@@ -54,8 +55,8 @@ export async function Log(
         body: JSON.stringify({ stack, level, package: pkg, message }),
       });
     }
-  } catch (error) {
-    console.error(`[LOGGER FAILED] ${error}`);
+  } catch (err) {
+    console.error("[LOGGER FAILED]", err);
   }
 }
 
