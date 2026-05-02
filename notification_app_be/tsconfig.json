@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "types": ["node"],
+    "paths": {}
+  },
+  "include": ["src/**/*", "../logging_middleware/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
